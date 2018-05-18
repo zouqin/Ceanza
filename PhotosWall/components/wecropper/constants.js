@@ -1,0 +1,9 @@
+
+const COVER_MODE={
+  COVER_CUT:0,
+  COVER_CONTAINER:1
+}
+
+module.exports={
+  COVERMODE: COVER_MODE
+}

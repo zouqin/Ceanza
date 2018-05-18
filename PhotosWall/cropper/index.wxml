@@ -1,0 +1,10 @@
+<import src="../components/wecropper/index.wxml" />
+
+<view class="cropper-wrapper">
+  <template is="weCropper" data="{{...cropperOpt}}" />
+  <view class="cropper-buttons">
+    <view class="compeleted-cut-btn" bindtap="compeletedCut">
+      确认
+    </view>
+  </view>
+</view>
