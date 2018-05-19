@@ -1,0 +1,24 @@
+.music{
+  background: #999999;
+  position: absolute;
+  top: 20rpx;
+  left: 20rpx;
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  z-index: 999;
+}
+
+.music.active{
+  animation : music 3s linear infinite;
+}
+
+.music image{
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes music{
+  0%{transform: rotate(0);}
+	100%{transform: rotate(-1080deg);}
+}

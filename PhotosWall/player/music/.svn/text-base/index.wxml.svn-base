@@ -1,0 +1,3 @@
+<view class="music {{music?'active':''}}" bindtap='musicPlay'>
+  <image src='http://xyyxsns.oss-cn-shenzhen.aliyuncs.com/res/wxopen/heartbeat/music.png'></image>
+</view>

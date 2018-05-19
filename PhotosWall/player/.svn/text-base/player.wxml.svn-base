@@ -1,0 +1,13 @@
+ <view class="{{'frame '+ item.showClassName}}" 
+animation='{{item.animation}}' 
+wx:for='{{imgs}}' 
+wx:key='{{index}}'>
+  <image 
+  src='{{item.url}}'
+  mode='aspectFill'
+  style='{{item.style}}'></image>
+</view> 
+
+<view class="music {{music?'active':''}}" bindtap='play'>
+  <image src='http://xyyxsns.oss-cn-shenzhen.aliyuncs.com/res/wxopen/heartbeat/music.png'></image>
+</view>
